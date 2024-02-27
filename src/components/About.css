@@ -1,0 +1,54 @@
+/* About.tsxに適用するスタイル */
+/* #about {
+    text-align: center; 
+    padding: 20px; 
+} */
+
+.card-container {
+    display: flex; /* カードを横に並べる */
+    justify-content: space-between; /* カードを横幅7:3で配置 */
+    width: 95%; /* 左端から画面の60%に幅を設定 */
+    margin-left:50px;
+    margin-top:70px;
+}
+
+.left-column {
+    display: flex;
+    flex-direction: column; /* カードを縦に配置 */
+    width: 80%; /* 左端から画面の70%に幅を設定 */
+}
+
+.top-left-card,
+.bottom-left-card,
+.right-card {
+  flex: 0 0 calc(30% - 10px);
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  text-align: left;
+  box-sizing: border-box;
+}
+
+/* .top-left-card,
+.bottom-left-card {
+  flex: 0 0 100%; 
+} */
+
+/* 左上のカード */
+.top-left-card {
+  /* カスタムスタイルを追加 */
+}
+
+/* 左下のカード */
+.bottom-left-card {
+  /* カスタムスタイルを追加 */
+}
+
+/* 右のカード */
+.right-card {
+  /* カスタムスタイルを追加 */
+  height: 2 * (calc(30% - 10px) + 40px);
+  margin-right:40px;
+  margin-left:50px;
+}

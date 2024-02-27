@@ -1,0 +1,28 @@
+/* MySkills.css */
+#my-skills {
+    text-align: center; /* テキストを中央揃えにする */
+    padding: 20px; /* 必要に応じて余白を調整 */
+}
+  
+  .skills-container {
+    display: flex; /* フレキシブルコンテナとして設定 */
+    flex-wrap: wrap; /* カードが行を超えて折り返すようにする */
+    justify-content: center; /* カードを中央寄せにする */
+  }
+  
+  .skill-card {
+    flex: 0 0 calc(30% - 20px); /* カードの幅を設定（3列で均等に配置する例） */
+    margin: 10px; /* カードのマージンを追加 */
+    padding: 20px; /* カードの余白を設定 */
+    border: 1px solid #ccc; /* カードにボーダーを追加（必要に応じて調整） */
+    background-color: #f9f9f9; /* カードの背景色（必要に応じて調整） */
+    text-align: center; /* カード内のテキストを中央揃えにする */
+    box-sizing: border-box; /* ボックスサイジングを設定（ボーダーと余白が幅に含まれる） */
+  }
+  
+  .skill-icon {
+    width: 80px; /* アイコンの幅を設定 */
+    height: 80px; /* アイコンの高さを設定 */
+    margin-bottom: 10px; /* アイコンとテキストの間に余白を追加 */
+  }
+  

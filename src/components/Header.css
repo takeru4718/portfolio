@@ -1,0 +1,30 @@
+/* src/components/Header.css */
+.header-container {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    padding: 10px 20px;
+    padding-left: 30px;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex; /* リストアイテムを横に並べる */
+    margin: 0;
+    padding-left:600px;
+}
+
+.nav-list li {
+    margin-right: 30px; /* リストアイテム間の間隔を設定（必要に応じて調整） */
+}
+
+.nav-list li:last-child {
+    margin-right: 0px; /* 最後のリストアイテムには右のマージンを適用しない */
+}
+  
+
+.nav-list a {
+    text-decoration: none;
+    color: #333; /* リンクのテキストカラーを設定（必要に応じて調整） */
+}
+  

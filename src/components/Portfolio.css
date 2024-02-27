@@ -1,0 +1,45 @@
+/* Portfolio.tsxに適用するスタイル */
+#portfolio {
+    text-align: center; /* テキストを中央揃えにする */
+    padding: 20px; /* 必要に応じて余白を調整 */
+}
+
+.project-container {
+    display: flex; /* フレキシブルコンテナとして設定 */
+    flex-wrap: wrap; /* カードが行を超えて折り返すようにする */
+    justify-content: flex-start; /* カードを左寄せに配置 */
+}
+  
+.project-card {
+    flex: 0 0 calc(33.33% - 20px); /* カードの幅を設定（3列で均等に配置する例） */
+    margin: 10px; /* カードのマージンを追加 */
+    padding: 20px; /* カードの余白を設定 */
+    border: 1px solid #ccc; /* カードにボーダーを追加（必要に応じて調整） */
+    /* background-color: #f9f9f9; カードの背景色（必要に応じて調整） */
+    text-align: left; /* カード内のテキストを左寄せにする */
+    box-sizing: border-box; /* ボックスサイジングを設定（ボーダーと余白が幅に含まれる） */
+}
+
+.project-card img {
+    max-width: 100%;
+    height: auto;
+    /* 画像のサイズを統一するスタイル */
+}
+
+/* 奇数番目のカードに異なる背景色を適用 */
+.original-card {
+    background-color: #4CAF50; /* 奇数番目のオリジナルカードの背景色（緑色を例としています） */
+}
+
+/* 偶数番目のカードに異なる背景色を適用 */
+.non-original-card {
+    background-color: #2196F3; /* 偶数番目の非オリジナルカードの背景色（青色を例としています） */
+}
+
+.original{
+    color:green;
+}
+
+.not-original{
+    color:blue;
+}

@@ -1,0 +1,12 @@
+/* Contact.tsxに適用するスタイル */
+#contact {
+    text-align: center; /* テキストを中央揃えにする */
+    padding: 20px; /* 必要に応じて余白を調整 */
+}
+
+#contact img{
+    width: 24px; /* 幅を調整 */
+    height: 24px; /* 高さを調整 */
+  }
+  
+  
